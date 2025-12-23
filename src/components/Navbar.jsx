@@ -1,10 +1,7 @@
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
-import { ScrollTrigger } from "gsap/all";
 
 import { navLinks } from "../../constants";
-
-gsap.registerPlugin(ScrollTrigger);
 
 const Navbar = () => {
 	useGSAP(() => {
