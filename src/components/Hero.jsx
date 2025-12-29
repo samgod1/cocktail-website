@@ -45,13 +45,14 @@ const Hero = () => {
 		tl.to(".right-leaf", { y: 200 }, "<");
 
 		const startValue = isMobile ? "top 50%" : "center 60%";
-		const endValue = isMobile ? "120% top" : "bottom top";
+		const endValue = isMobile ? "bottom bottom" : "bottom top";
 
 		const timeline = gsap.timeline({
 			scrollTrigger: {
 				trigger: "video",
 				start: startValue,
 				end: endValue,
+				endTrigger: isMobile ? "#cocktails" : undefined,
 				scrub: true,
 				pin: true,
 			},
@@ -86,7 +87,7 @@ const Hero = () => {
 								Sip the Spirit <br /> of Summer
 							</p>
 						</div>
-						<div className="view-cocktails">
+						<div className="view-cocktails ">
 							<p className="subtitle">
 								Every cocktail on our menu is a blend of premium ingredients,
 								creative flair, and timeless recipes — designed to delight your
