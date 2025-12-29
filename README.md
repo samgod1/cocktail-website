@@ -11,6 +11,7 @@ The project helped me realize that frontend development goes far beyond layouts 
 ## What I Learned
 
 - GSAP timelines and sequencing
+- Spliting Text
 - Scroll-based animations
 - Better control over UI motion
 - Thinking about animation as part of UX, not decoration
@@ -24,4 +25,4 @@ The project helped me realize that frontend development goes far beyond layouts 
 
 ## Credits
 
-This project was built with guidance and learning material from the **JavaScript Mastery** YouTube GSAP course. Some parts are inspired by their tutorials and structure.
+This project was built with guidance and learning material from the **JavaScript Mastery** YouTube GSAP course.
